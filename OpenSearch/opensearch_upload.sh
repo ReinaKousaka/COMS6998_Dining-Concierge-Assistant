@@ -1,0 +1,1 @@
+curl -XPOST -u USERNAME:PASSWORD https://search-restaurants-domain-sa2zkfctqfrcavwmr56tgrmofy.us-east-1.es.amazonaws.com/_bulk --data-binary @opensearch_data.json -H 'Content-Type: application/json'
